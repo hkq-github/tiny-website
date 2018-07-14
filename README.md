@@ -10,7 +10,7 @@
   * [在Windows下部署](#在Windows下部署)
   * [在Linux服务器上部署](#在Linux服务器上部署)
 * [快速了解项目](#快速了解项目)
-  * [在Eclipse中导入项目](#在Eclipse中导入项目)
+  * [导入源代码](#导入源代码)
   * [项目结构](#项目结构)
     * [MVC](#MVC)
     * [与mvc相关的包](#与mvc相关的包)
@@ -20,8 +20,7 @@
 
 ### 文件
 在Github中包含以下文件：
-* `TinyWebsite` ：项目源代码，可以在Eclipse中导入
-* `TinyWebsite.war`  ：TinyWebsite项目打包后文件，复制到tomcat部署
+* `TinyWebsite.war`  ：TinyWebsite项目打包后文件。复制到tomcat部署或通过Eclipse导入查看源代码
 * `create_db.sql` ：建立数据库sql文件
 * `README.md` 
 
@@ -76,8 +75,10 @@
 
 ### 快速了解项目
 
-#### 在Eclipse中导入项目
-在Eclipse中依次选择`File -> Import -> Existing Project into Workspace` 选择`TinyWebsite` 文件导入。
+#### 导入源代码
+在Eclipse中依次选择`File -> Import -> Web -> War file` 选择`TinyWebsite.war` 文件导入。需要导入项目需要的jar文件：
+* **导入lib文件夹下的jar文件：** 全选`/WebContent/WEB-INF/lib`下的jar文件，右键`Build Path -> Add to Build Path`
+* **导入Servlet所需要的jar文件：** 
 
 #### 项目结构
 
