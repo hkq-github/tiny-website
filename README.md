@@ -71,8 +71,7 @@
 * **测试：** 
 开启tomcat服务，在浏览器中输入`http://localhost:8080/TinyWebsite/login` 即可看到项目登录界面。
 
-#### 在Linux服务器部署
-[To Do]
+#### 在Linux服务器部署[To Do]
 
 ### 快速了解项目
 
@@ -133,8 +132,7 @@ src/
 ├──		ValidateUserInfo.java			对用户信息如用户名、密码、邮箱等等验证
 ```
 
-### 项目教程
-[To Do]
+### 项目教程[To Do]
 
 * 项目详细介绍：密码的存储、注册各个字段说明、用户名和邮箱不能重复；项目包、文件介绍、用到的jar包等等
 * 数据库设计与搭建；Jdbc工具类、domain类、dao类编写
