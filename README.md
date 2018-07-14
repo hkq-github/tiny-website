@@ -33,7 +33,7 @@
 * 统计在线人数
 * 管理员登录、注销
 * 管理员根据用户名、邮箱、昵称搜索用户；分页显示搜索结果
-* 管理员操作用户：重置密码、冻结账户、删除账户界面截图
+* 管理员操作用户：重置密码、冻结账户、删除账户
 
 #### 部分界面截图
 ![](https://github.com/hkq-github/TinyWebsite/blob/master/Documents/imgs/readme_md/login.jpg)
