@@ -78,7 +78,8 @@
 #### 导入源代码
 在Eclipse中依次选择`File -> Import -> Web -> War file` 选择`TinyWebsite.war` 文件导入。需要导入项目需要的jar文件：
 * **导入lib文件夹下的jar文件：** 全选`/WebContent/WEB-INF/lib`下的jar文件，右键`Build Path -> Add to Build Path`
-* **导入Servlet所需要的jar文件：** 在项目右键 -> Build Path -> Configing build Path -> Libraries -> Add Library -> Servlet Runtime`一直确定 
+* **导入Servlet所需要的jar文件：** 在项目`右键 -> Build Path -> Configing build Path -> Libraries -> Add Library -> Servlet Runtime`一直确定。
+若需要运行项目，参考 在Windows部署 创建数据库并修改`db_condb-config.properties`
 
 #### 项目结构
 
