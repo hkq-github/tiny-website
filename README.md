@@ -21,7 +21,8 @@
 ### 文件
 在Github中包含以下文件：
 * `Documents`：项目文档
-* `TinyWebsite.war`  ：TinyWebsite项目打包后文件。复制到tomcat部署或通过Eclipse导入查看源代码
+* `TinyWebsite`：项目源程序，可在Eclipse下导入
+* `TinyWebsite.war`  ：TinyWebsite项目打包后文件。复制到tomcat部署
 * `create_db.sql` ：建立数据库sql文件
 * `README.md` 
 
@@ -76,9 +77,7 @@
 ### 快速了解项目
 
 #### 导入源代码
-在Eclipse中依次选择`File -> Import -> Web -> War file` 选择`TinyWebsite.war` 文件导入。需要导入项目需要的jar文件：
-* **导入lib文件夹下的jar文件：** 全选`/WebContent/WEB-INF/lib`下的jar文件，右键`Build Path -> Add to Build Path`
-* **导入Servlet所需要的jar文件：** 在项目`右键 -> Build Path -> Configing build Path -> Libraries -> Add Library -> Servlet Runtime`一直确定。
+在Eclipse中依次选择`File -> Import -> Existing Project into Workspace` 选中`TinyWebsite`文件夹导入。
 
 若需要运行项目，参考 在Windows部署 创建数据库并修改`db_condb-config.properties`
 
