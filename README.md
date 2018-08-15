@@ -26,7 +26,7 @@
 * `README.md` 
 
 ### 项目介绍
-
+可以参考[项目详细设计](https://github.com/hkq-github/TinyWebsite/blob/master/Documents/%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D.md)
 #### 功能介绍
 * 用户密码采用Hash + Salt存储
 * 用户注册、登录、自动登录、注销
