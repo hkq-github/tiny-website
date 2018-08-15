@@ -45,7 +45,7 @@
 ![](https://github.com/hkq-github/TinyWebsite/blob/master/Documents/imgs/readme_md/manage_user.jpg)
 
 ### 在线演示
-已经将项目部署到服务器，点击[www.tinyweb.site](www.tinyweb.,site) 或[106.12.4.118](http://106.12.4.118/login)在线演示 。
+已经将项目部署到服务器，点击[106.12.4.118](http://106.12.4.118/login)在线演示 。
 
 ### 怎样部署
 
