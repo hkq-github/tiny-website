@@ -15,14 +15,13 @@
     * [MVC](#MVC)
     * [与MVC相关的包](#与MVC相关的包)
   * [其他一些类](#其他一些类)
-* [项目教程](#项目教程)
 
 
 ### 文件
 在Github中包含以下文件：
 * `Documents`：项目文档
 * `TinyWebsite`：项目源程序，可在Eclipse下导入
-* `TinyWebsite.war`  ：TinyWebsite项目打包后文件。复制到tomcat部署
+* `TinyWebsite.war`  ：TinyWebsite项目打包后文件。可以复制到tomcat部署
 * `create_db.sql` ：建立数据库sql文件
 * `README.md` 
 
@@ -130,19 +129,3 @@ src/
 ├──		UserPaging.java					User分页对象
 ├──		ValidateUserInfo.java			对用户信息如用户名、密码、邮箱等等验证
 ```
-
-### 项目教程[To Do]
-
-* 项目详细介绍：密码的存储、注册各个字段说明、用户名和邮箱不能重复；项目包、文件介绍、用到的jar包等等
-* 数据库设计与搭建；Jdbc工具类、domain类、dao类编写
-* **services类编写** 
-* 功能实现：
-  * 用户-登录/注销/自动登录功能
-  * 用户-注册功能
-  * 用户-修改个人信息、个人密码
-  * 管理员-登录/注销
-  * 管理员-查看所有用户/搜索用户/分页
-  * 管理员-重置密码、冻结、删除用户
-  * 登录过滤器、权限过滤器、字符包装器
-  * 在线用户统计、错误处理、初始化Servlet
-* **在linux服务器中部署项目** 
